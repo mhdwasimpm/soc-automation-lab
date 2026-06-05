@@ -132,11 +132,9 @@ System 2 (Windows 11)
 
 ## Architecture Diagram
 
-Refer to:
 
-```text
-architecture/11-project-architecture.png
-```
+[project-architecture.png](architecture/project-architecture.png)
+
 
 ---
 
@@ -144,54 +142,44 @@ architecture/11-project-architecture.png
 
 ### Wazuh Dashboard
 
-```text
-screenshots/01-wazuh-dashboard.png
-```
+[wazuh-dashboard](screenshots/01-wazuh-dashboard.png)
+
 
 ### Agent Registration
-
-```text
-screenshots/02-agent-connected.png
-```
+[02-agent-connected.png](screenshots/02-agent-connected.png)
 
 ### Alert Generation
 
-```text
-screenshots/03-alert-generated.png
-screenshots/04-alert-details.png
-```
+[03-alert-generated.png](screenshots/03-alert-generated.png)
+[04-alert-details.png](screenshots/04-alert-details.png)
+
 
 ### Shuffle Workflow
 
-```text
-screenshots/05-shuffle-workflow.png
-screenshots/12-shuffle-workflow-design.png
-```
+[05-shuffle-workflow.png](screenshots/05-shuffle-workflow.png)
+[12-shuffle-workflow-design.png](screenshots/12-shuffle-workflow-design.png)
+
 
 ### VirusTotal Enrichment
 
-```text
-screenshots/06-virustotal-enrichment.png
-```
+[06-virustotal-enrichment.png](screenshots/06-virustotal-enrichment.png)
+
 
 ### Telegram Notifications
 
-```text
-screenshots/07-telegram-notification.png
-```
+[07-telegram-notification.png](screenshots/07-telegram-notification.png)
+
 
 ### File Integrity Monitoring
 
-```text
-screenshots/08-fim-test-file-modification.png
-screenshots/09-fim-alert-triggered.png
-```
+[08-fim-test-file-modification.png](screenshots/08-fim-test-file-modification.png)
+[09-fim-alert-triggered.png](screenshots/09-fim-alert-triggered.png)
+
 
 ### End-to-End Workflow Validation
 
-```text
-screenshots/10-end-to-end-workflow.png
-```
+[10-end-to-end-workflow.png](screenshots/10-end-to-end-workflow.png)
+
 
 ---
 
@@ -340,9 +328,7 @@ A custom Python playbook was developed to automate indicator enrichment and noti
 
 ### Playbook Location
 
-```text
-playbooks/alert_enrichment_playbook.py
-```
+[alert_enrichment_playbook.py](playbooks/alert_enrichment_playbook.py)
 
 ---
 
@@ -374,9 +360,7 @@ Custom rules were created to enhance:
 
 Location:
 
-```text
-detection-rules/custom_rules.xml
-```
+[custom_rules.xml](detection-rules/custom_rules.xml)
 
 ---
 
@@ -405,9 +389,8 @@ File Integrity Monitoring
 
 Detailed mapping:
 
-```text
-docs/mitre-mapping.md
-```
+[mitre-mapping.md](docs/mitre-mapping.md)
+
 
 ---
 
