@@ -40,7 +40,7 @@ This project focuses on reducing manual investigation effort by automating alert
 
 ### Infrastructure Layout
 
-
+```text
 System 1 (Windows 11)
 
 ├── Kali Linux VM (Attacker)
@@ -56,13 +56,13 @@ System 2 (Windows 11)
 
 └── Kali Linux VM
     └── Wazuh Agent (Monitored Endpoint)
-
+```
 
 ---
 
 ## End-to-End Security Workflow
 
-
+```text
 ┌─────────────────┐
 │ Kali Attacker   │
 └────────┬────────┘
@@ -96,7 +96,7 @@ System 2 (Windows 11)
 │ Telegram Alert  │
 │ Analyst Notice  │
 └─────────────────┘
-
+```
 
 ---
 
@@ -133,6 +133,7 @@ System 2 (Windows 11)
 ## Architecture Diagram
 
 Refer to: - architecture/11-project-architecture.png
+
 
 ---
 
@@ -208,7 +209,7 @@ This scenario demonstrates the detection of unauthorized SSH authentication atte
 
 ### Workflow
 
-
+```text
 SSH Attack Attempt
         │
         ▼
@@ -222,7 +223,7 @@ VirusTotal IP Lookup
         │
         ▼
 Telegram Notification
-
+```
 
 ### Associated Wazuh Rules
 
@@ -248,7 +249,7 @@ This scenario demonstrates detection of unauthorized file system changes on the 
 
 ### Workflow
 
-
+```text
 File System Change
         │
         ▼
@@ -262,7 +263,7 @@ VirusTotal File Lookup
         │
         ▼
 Telegram Notification
-
+```
 
 ### Associated Wazuh Rules
 
@@ -280,7 +281,7 @@ The project uses Shuffle SOAR to automate alert processing and threat intelligen
 
 ## Workflow Components
 
-
+```text
 Webhook Trigger
         │
         ▼
@@ -294,7 +295,7 @@ Alert Classification
         │
         ▼
 Telegram Notification
-
+```
 
 ## Automated Actions
 
@@ -336,7 +337,9 @@ A custom Python playbook was developed to automate indicator enrichment and noti
 
 ### Playbook Location
 
+
 - playbooks/alert_enrichment_playbook.py
+
 
 ---
 
@@ -366,9 +369,7 @@ Custom rules were created to enhance:
 * File Integrity Monitoring
 * Alert Prioritization
 
-Location:
-
-- detection-rules/custom_rules.xml
+Location: - detection-rules/custom_rules.xml
 
 
 ---
