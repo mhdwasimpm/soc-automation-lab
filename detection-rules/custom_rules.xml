@@ -1,0 +1,55 @@
+<group name="custom_soc_soar_rules,">
+
+  <!-- SSH Invalid User Login Detection -->
+  <rule id="100100" level="8">
+    <if_sid>5710</if_sid>
+    <description>SOAR Lab: SSH login attempt using invalid user detected</description>
+    <group>authentication,ssh,invalid_login,soar_lab,</group>
+    <mitre>
+      <id>T1110.001</id>
+      <id>T1021.004</id>
+    </mitre>
+  </rule>
+
+  <!-- SSH Brute Force Pattern Detection -->
+  <rule id="100101" level="12" frequency="5" timeframe="60">
+    <if_matched_sid>5710</if_matched_sid>
+    <description>SOAR Lab: Possible SSH brute force activity detected</description>
+    <group>authentication,ssh,bruteforce,soar_lab,</group>
+    <mitre>
+      <id>T1110.001</id>
+      <id>T1021.004</id>
+    </mitre>
+  </rule>
+
+  <!-- File Modified Detection -->
+  <rule id="100102" level="8">
+    <if_sid>550</if_sid>
+    <description>SOAR Lab: Monitored file modified - FIM alert generated</description>
+    <group>syscheck,fim,file_modified,soar_lab,</group>
+    <mitre>
+      <id>T1565.001</id>
+    </mitre>
+  </rule>
+
+  <!-- File Added Detection -->
+  <rule id="100103" level="7">
+    <if_sid>554</if_sid>
+    <description>SOAR Lab: New file added in monitored directory</description>
+    <group>syscheck,fim,file_added,soar_lab,</group>
+    <mitre>
+      <id>T1565.001</id>
+    </mitre>
+  </rule>
+
+  <!-- File Deleted Detection -->
+  <rule id="100104" level="9">
+    <if_sid>553</if_sid>
+    <description>SOAR Lab: File deleted from monitored directory</description>
+    <group>syscheck,fim,file_deleted,soar_lab,</group>
+    <mitre>
+      <id>T1070</id>
+    </mitre>
+  </rule>
+
+</group>
