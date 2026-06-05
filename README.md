@@ -132,8 +132,11 @@ System 2 (Windows 11)
 
 ## Architecture Diagram
 
-Refer to: - architecture/11-project-architecture.png
+Refer to:
 
+```text
+architecture/11-project-architecture.png
+```
 
 ---
 
@@ -337,9 +340,9 @@ A custom Python playbook was developed to automate indicator enrichment and noti
 
 ### Playbook Location
 
-
-- playbooks/alert_enrichment_playbook.py
-
+```text
+playbooks/alert_enrichment_playbook.py
+```
 
 ---
 
@@ -369,8 +372,11 @@ Custom rules were created to enhance:
 * File Integrity Monitoring
 * Alert Prioritization
 
-Location: - detection-rules/custom_rules.xml
+Location:
 
+```text
+detection-rules/custom_rules.xml
+```
 
 ---
 
