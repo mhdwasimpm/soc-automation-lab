@@ -1,0 +1,711 @@
+{
+    "workflow_as_code": false,
+    "actions": [
+        {
+            "app_name": "Telegram_Bot",
+            "app_version": "1.1.0",
+            "description": "\n\nhttps://api.telegram.org/bot{api_token}/sendMessage",
+            "app_id": "0a67232d3daeb76b278279f6b2269a97",
+            "errors": [],
+            "id": "d5fe84e4-af47-489d-b3fc-7da7a5647eda",
+            "is_valid": true,
+            "private_id": "0a67232d3daeb76b278279f6b2269a97",
+            "label": "Telegram_Bot_1",
+            "public": false,
+            "generated": true,
+            "large_image": "data:image/png;base64,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",
+            "environment": "",
+            "name": "post_send_message",
+            "parameters": [
+                {
+                    "description": "The apikey to use",
+                    "id": "",
+                    "name": "apikey",
+                    "example": "The API key to use. Space = skip",
+                    "value": "",
+                    "multiline": false,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "STATIC_VALUE",
+                    "required": true,
+                    "configuration": true,
+                    "tags": null,
+                    "schema": {
+                        "type": "string"
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false,
+                    "is_valid": false
+                },
+                {
+                    "description": "The URL of the API",
+                    "id": "",
+                    "name": "url",
+                    "example": "https://api.telegram.org",
+                    "value": "",
+                    "multiline": false,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "STATIC_VALUE",
+                    "required": true,
+                    "configuration": true,
+                    "tags": null,
+                    "schema": {
+                        "type": "string"
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false,
+                    "is_valid": false
+                },
+                {
+                    "description": "Generated by shuffler.io OpenAPI",
+                    "id": "TOGGLED",
+                    "name": "body",
+                    "example": "{\"chat_id\": ${chat_id}, \"text\": \"${message}\"}",
+                    "value": "{\n  \"chat_id\": \"8759234394\",\n  \"text\": \"$python_virus_total.message\",\n  \"disable_web_page_preview\": true\n}",
+                    "multiline": true,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "STATIC_VALUE",
+                    "required": true,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": "string"
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false
+                },
+                {
+                    "description": "Generated by shuffler.io OpenAPI",
+                    "id": "",
+                    "name": "api_token",
+                    "example": "",
+                    "value": "",
+                    "multiline": false,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "STATIC_VALUE",
+                    "required": true,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": "string"
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false,
+                    "is_valid": false
+                },
+                {
+                    "description": "Add or edit headers",
+                    "id": "",
+                    "name": "headers",
+                    "example": "Content-Type=application/json\nAccept=application/json\r\n",
+                    "value": "Content-Type=application/json",
+                    "multiline": true,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "STATIC_VALUE",
+                    "required": false,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": "string"
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false
+                },
+                {
+                    "description": "Add or edit queries",
+                    "id": "",
+                    "name": "queries",
+                    "example": "view=basic&redirect=test",
+                    "value": "",
+                    "multiline": true,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "STATIC_VALUE",
+                    "required": false,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": "string"
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false
+                },
+                {
+                    "description": "Check if you want to verify request",
+                    "id": "",
+                    "name": "ssl_verify",
+                    "example": "True",
+                    "value": "False",
+                    "multiline": false,
+                    "multiselect": false,
+                    "options": [
+                        "False",
+                        "True"
+                    ],
+                    "action_field": "",
+                    "variant": "STATIC_VALUE",
+                    "required": false,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": "string"
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false
+                },
+                {
+                    "description": "Choose if we should write the result straight to a file or not",
+                    "id": "",
+                    "name": "to_file",
+                    "example": "False",
+                    "value": "False",
+                    "multiline": false,
+                    "multiselect": false,
+                    "options": [
+                        "False",
+                        "True"
+                    ],
+                    "action_field": "",
+                    "variant": "STATIC_VALUE",
+                    "required": false,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": "string"
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false
+                }
+            ],
+            "execution_variable": {
+                "description": "",
+                "id": "",
+                "name": "",
+                "value": ""
+            },
+            "position": {
+                "x": 536.7001027127897,
+                "y": 549.6311496192427
+            },
+            "authentication_id": "",
+            "category": "Communication",
+            "reference_url": "",
+            "sub_action": false,
+            "run_magic_output": false,
+            "run_magic_input": false,
+            "execution_delay": 0,
+            "category_label": [
+                "Send Message"
+            ],
+            "suggestion": false,
+            "parent_controlled": false,
+            "source_workflow": "",
+            "source_execution": ""
+        },
+        {
+            "app_name": "Shuffle Tools",
+            "app_version": "1.2.0",
+            "description": "Runs python with the data input. Any prints will be returned. Avoid __main__ as it is not supported in this environment.",
+            "app_id": "bfa4815a-d932-4768-ae2d-f08a4b9a2fac",
+            "errors": [],
+            "id": "77bd92dd-4039-4954-953e-c9d4efa8733c",
+            "is_valid": true,
+            "isStartNode": true,
+            "sharing": true,
+            "label": "python_Virus_Total",
+            "public": true,
+            "generated": false,
+            "large_image": "data:image/svg+xml;utf-8,%3Csvg%20width=%2224%22%20height=%2224%22%20viewBox=%220%200%2048%2048%22%20version=%221.1%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20d=%22M17.3335%2028.1667L22.3335%2023.1667L17.3335%2018.1667%20M24%2029.8333H30.6667%22%20fill=%22none%22%20stroke=%22white%22%20stroke-width=%221.5%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E",
+            "environment": "",
+            "name": "execute_python",
+            "parameters": [
+                {
+                    "description": "The code to run. Can be a file ID from within Shuffle.",
+                    "id": "",
+                    "name": "code",
+                    "example": "print(\"hello world\")",
+                    "value": "import requests\nimport re\n\nVT_API_KEY = \"dd94773703099635d9564d0c9b595ee4e2aedfb84fcb588e302fc8b8afbf8e86\"\n\nrule_id = \"\"\"$exec.rule.id\"\"\".strip()\nagent_name = \"\"\"$exec.agent.name\"\"\".strip()\nagent_ip = \"\"\"$exec.agent.ip\"\"\".strip()\nmanager = \"\"\"$exec.manager.name\"\"\".strip()\nrule_desc = \"\"\"$exec.rule.description\"\"\".strip()\nfull_log = \"\"\"$exec.full_log\"\"\"\n\ndef vt_get(url):\n    headers = {\"x-apikey\": VT_API_KEY}\n    r = requests.get(url, headers=headers, timeout=20)\n    try:\n        return r.status_code, r.json()\n    except:\n        return r.status_code, {}\n\nif rule_id in [\"550\", \"553\"]:\n\n    sha256 = \"\"\"$exec.syscheck.sha256_after\"\"\".strip()\n    file_path = \"\"\"$exec.syscheck.path\"\"\".strip()\n    event = \"\"\"$exec.syscheck.event\"\"\".strip()\n\n    if not sha256:\n        msg = \"⚠️ FIM alert received, but SHA256 hash is empty.\"\n\n    else:\n        status, vt = vt_get(f\"https://www.virustotal.com/api/v3/files/{sha256}\")\n\n        if status == 200:\n            attrs = vt.get(\"data\", {}).get(\"attributes\", {})\n            stats = attrs.get(\"last_analysis_stats\", {})\n\n            malicious = int(stats.get(\"malicious\", 0))\n            suspicious = int(stats.get(\"suspicious\", 0))\n            harmless = int(stats.get(\"harmless\", 0))\n            undetected = int(stats.get(\"undetected\", 0))\n\n            if malicious > 0:\n                severity = \"🚨🚨 FIM HIGH SEVERITY ALERT 🚨🚨\"\n                title = \"📂 Threat Intelligence Match Detected\"\n                action = \"🔥 Action: Investigate Immediately\"\n            elif suspicious > 0:\n                severity = \"🟠🟠 FIM MEDIUM SEVERITY ALERT 🟠🟠\"\n                title = \"📂 Suspicious File Detected\"\n                action = \"📝 Action: Manual Review Required\"\n            else:\n                severity = \"🟡🟡 FIM LOW SEVERITY ALERT 🟡🟡\"\n                title = \"📂 File Found In VirusTotal\"\n                action = \"📝 Action: Review If Unexpected\"\n\n            msg = f\"\"\"{severity}\n\n{title}\n{action}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🔹 Agent Information\n━━━━━━━━━━━━━━━━━━━━━━━\nAgent: {agent_name}\nAgent IP: {agent_ip}\nManager: {manager}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n📂 File Information\n━━━━━━━━━━━━━━━━━━━━━━━\nFile:\n{file_path}\n\nEvent:\n{event}\n\nSHA256:\n{sha256}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🛡 VirusTotal File Intelligence\n━━━━━━━━━━━━━━━━━━━━━━━\nVT Status: 200\nMalicious: {malicious}\nSuspicious: {suspicious}\nHarmless: {harmless}\nUndetected: {undetected}\n\nFile Type: {attrs.get(\"type_description\", \"N/A\")}\nReputation: {attrs.get(\"reputation\", \"N/A\")}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🔗 Threat Intelligence\n━━━━━━━━━━━━━━━━━━━━━━━\nhttps://www.virustotal.com/gui/file/{sha256}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n📌 Recommended Actions\n━━━━━━━━━━━━━━━━━━━━━━━\n• Validate whether the file is authorized\n• Check file source and user activity\n• Isolate endpoint if malicious\n• Escalate to SOC L2 / IR if required\n\"\"\"\n\n        elif status == 404:\n            msg = f\"\"\"🟠🟠 FIM MEDIUM SEVERITY ALERT 🟠🟠\n\n📂 Suspicious File Activity Detected\n📝 Action Required: Manual Investigation\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🔹 Alert Summary\n━━━━━━━━━━━━━━━━━━━━━━━\nAlert Type: File Integrity Monitoring\nSeverity: Medium\n\nReason:\nFile hash was not found in VirusTotal's database.\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🖥 Endpoint Information\n━━━━━━━━━━━━━━━━━━━━━━━\nAgent: {agent_name}\nAgent IP: {agent_ip}\nManager: {manager}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n📂 File Information\n━━━━━━━━━━━━━━━━━━━━━━━\nFile:\n{file_path}\n\nEvent:\n{event}\n\nSHA256:\n{sha256}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🛡 Threat Intelligence\n━━━━━━━━━━━━━━━━━━━━━━━\nVirusTotal Status:\nHash Not Found (404)\n\nAssessment:\n• File is not currently known by VirusTotal\n• Could be a legitimate internal file\n• Could be a newly created or previously unseen file\n• Requires analyst validation\n\n━━━━━━━━━━━━━━━━━━━━━━━\n📌 Recommended Response\n━━━━━━━━━━━━━━━━━━━━━━━\n• Verify whether the file modification was authorized\n• Review user and process activity associated with the file\n• Upload the file manually to VirusTotal\n• Analyze the file in a sandbox environment\n• Escalate if suspicious indicators are identified\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🤖 Automated Response\n━━━━━━━━━━━━━━━━━━━━━━━\nGenerated by:\nWazuh → Shuffle → VirusTotal → Telegram\n\"\"\"\n\n        else:\n            msg = f\"\"\"⚠️ FIM VirusTotal Error\n\nVT Status: {status}\nSHA256: {sha256}\n\"\"\"\n\nelif rule_id == \"5758\":\n\n    match = re.search(r\"from ([0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)\", full_log)\n\n    if not match:\n        msg = f\"\"\"⚠️ SSH ALERT ERROR\n\nAttacker IP could not be extracted.\n\nFull Log:\n{full_log}\n\"\"\"\n    else:\n        attacker_ip = match.group(1)\n        status, vt = vt_get(f\"https://www.virustotal.com/api/v3/ip_addresses/{attacker_ip}\")\n\n        if status == 200:\n            attrs = vt.get(\"data\", {}).get(\"attributes\", {})\n            stats = attrs.get(\"last_analysis_stats\", {})\n\n            msg = f\"\"\"🚨🚨 SSH BRUTE FORCE ALERT 🚨🚨\n\n🔐 Multiple Failed Authentication Attempts Detected\n🔥 Action Required: Investigate Source IP\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🔹 Alert Summary\n━━━━━━━━━━━━━━━━━━━━━━━\nAlert Type: SSH Brute Force Attack\nRule ID: {rule_id}\nRule: {rule_desc}\nMITRE ATT&CK: T1110 - Brute Force\nSeverity: High\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🎯 Target Information\n━━━━━━━━━━━━━━━━━━━━━━━\nHostname: {agent_name}\nTarget IP: {agent_ip}\nManager: {manager}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🌐 Attacker Information\n━━━━━━━━━━━━━━━━━━━━━━━\nAttacker IP:\n{attacker_ip}\n\nCountry: {attrs.get(\"country\", \"N/A\")}\nASN: {attrs.get(\"asn\", \"N/A\")}\nNetwork: {attrs.get(\"network\", \"N/A\")}\nReputation: {attrs.get(\"reputation\", \"N/A\")}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🛡 VirusTotal IP Intelligence\n━━━━━━━━━━━━━━━━━━━━━━━\nMalicious: {stats.get(\"malicious\", 0)}\nSuspicious: {stats.get(\"suspicious\", 0)}\nHarmless: {stats.get(\"harmless\", 0)}\nUndetected: {stats.get(\"undetected\", 0)}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n🔗 Threat Intelligence\n━━━━━━━━━━━━━━━━━━━━━━━\nhttps://www.virustotal.com/gui/ip-address/{attacker_ip}\n\n━━━━━━━━━━━━━━━━━━━━━━━\n📌 Recommended Response\n━━━━━━━━━━━━━━━━━━━━━━━\n• Review SSH authentication logs\n• Verify whether the source IP is authorized\n• Block or restrict the source IP if unauthorized\n• Check for successful logins from same source\n• Escalate to SOC L2 if activity persists\n\"\"\"\n\n        else:\n            msg = f\"\"\"🟠🟠 SSH MEDIUM SEVERITY ALERT 🟠🟠\n\nSSH Brute Force Detected\n\nAttacker IP:\n{attacker_ip}\n\nVT Status:\n{status}\n\nVT Link:\nhttps://www.virustotal.com/gui/ip-address/{attacker_ip}\n\"\"\"\n\nelse:\n    msg = f\"\"\"⚪⚪ UNHANDLED WAZUH ALERT ⚪⚪\n\nRule ID: {rule_id}\nRule: {rule_desc}\n\nAgent: {agent_name}\nIP: {agent_ip}\n\"\"\"\n\nprint(msg)",
+                    "multiline": true,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "",
+                    "required": true,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": "string"
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false
+                }
+            ],
+            "execution_variable": {
+                "description": "",
+                "id": "",
+                "name": "",
+                "value": ""
+            },
+            "position": {
+                "x": 331.90255557715625,
+                "y": 698.1732084015526
+            },
+            "authentication_id": "",
+            "category": "Other",
+            "reference_url": "",
+            "sub_action": false,
+            "run_magic_output": false,
+            "run_magic_input": false,
+            "execution_delay": 0,
+            "category_label": null,
+            "suggestion": false,
+            "parent_controlled": false,
+            "source_workflow": "",
+            "source_execution": ""
+        }
+    ],
+    "branches": [
+        {
+            "destination_id": "77bd92dd-4039-4954-953e-c9d4efa8733c",
+            "id": "6490521e-dcfd-47a2-ab3e-1c10d68c79d3",
+            "source_id": "965e52c2-73cb-49bd-b07e-51ea74a5716b",
+            "label": "",
+            "has_errors": false,
+            "conditions": [],
+            "decorator": false,
+            "parent_controlled": false,
+            "source_parent": ""
+        },
+        {
+            "destination_id": "d5fe84e4-af47-489d-b3fc-7da7a5647eda",
+            "id": "a2794737-98ad-4ed8-a853-ee4ba7201659",
+            "source_id": "77bd92dd-4039-4954-953e-c9d4efa8733c",
+            "label": "",
+            "has_errors": false,
+            "conditions": [],
+            "decorator": false,
+            "parent_controlled": false,
+            "source_parent": ""
+        }
+    ],
+    "visual_branches": [],
+    "triggers": [
+        {
+            "app_name": "Webhook",
+            "description": "Custom HTTP input trigger",
+            "long_description": "Execute a workflow with an unauthicated POST request",
+            "status": "success",
+            "app_version": "1.0.0",
+            "errors": [],
+            "id": "965e52c2-73cb-49bd-b07e-51ea74a5716b",
+            "is_valid": true,
+            "isStartNode": false,
+            "label": "Webhook_1",
+            "small_image": "",
+            "large_image": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDgiIGhlaWdodD0iNDgiIHZpZXdCb3g9IjAgMCA0OCA0OCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjQ4IiBoZWlnaHQ9IjQ4IiByeD0iOCIgZmlsbD0iIzIxQTBCRCIvPgo8cGF0aCBkPSJNMjMuOTYxNyAxOC4wOTk0QzI1LjAwMDQgMTguMDY5NiAyNS42ODE3IDE5LjE3NTIgMjUuMTg4MiAyMC4wODk2TDI1LjE3NDYgMjAuMTE1TDI1LjE5MDIgMjAuMTM5NEwyNy45ODMyIDI0LjY4MDRMMjguMDA0NiAyNC43MTU2TDI4LjA0MzcgMjQuN0MyOC41MzgzIDI0LjUwMDcgMjkuMDY3MSAyNC4zOTgyIDI5LjYwMDMgMjQuMzk4MkMzMS4wODE0IDI0LjM5ODkgMzIuNDQ5OSAyNS4xODkyIDMzLjE5MTIgMjYuNDcxNEMzNC43ODk2IDI5LjIzNzMgMzIuNzk0OCAzMi42OTY1IDI5LjYwMDMgMzIuNjk4QzI5LjM2ODEgMzIuNjk4IDI5LjE1MzkgMzIuNTczOSAyOS4wMzc4IDMyLjM3MjhDMjguNzg3NyAzMS45Mzk1IDI5LjEgMzEuMzk4MiAyOS42MDAzIDMxLjM5ODJDMzEuMjA2NyAzMS4zOTg4IDMyLjQ5NjEgMzAuMDcyMyAzMi40NSAyOC40NjY2QzMyLjM4NjcgMjYuMjczNiAyOS45NzM3IDI0Ljk3MTYgMjguMTA2MiAyNi4xMjI4QzI3LjgwMDggMjYuMzEwOCAyNy40MDAxIDI2LjIxNSAyNy4yMTE3IDI1LjkwOTlIMjcuMjEyNkwyNC4wODE4IDIwLjgyMkwyNC4wNjcxIDIwLjc5ODZIMjQuMDAwN0MyMy41MzIzIDIwLjc5ODYgMjMuMDk3MSAyMC41NTU4IDIyLjg1MTMgMjAuMTU3QzIyLjMwNjIgMTkuMjcyMyAyMi45MjMgMTguMTI5MyAyMy45NjE3IDE4LjA5OTRaTTE1LjA4MDggMjYuMDU3NEMxNS4zODE0IDI1LjY1NzIgMTYuMDAyNiAyNS43MzI4IDE2LjE5OSAyNi4xOTMxQzE2LjI3ODcgMjYuMzgwMSAxNi4yNjU3IDI2LjU5MTkgMTYuMTY3NyAyNi43NjY0TDE2LjEyMDggMjYuODM4NkMxNS43NDkxIDI3LjMzMSAxNS41NDg1IDI3LjkzMTYgMTUuNTUwNSAyOC41NDg2QzE1LjU1MDcgMzAuNzQyMyAxNy45MjYxIDMyLjExMzIgMTkuODI1OSAzMS4wMTY0QzIwLjcwNzUgMzAuNTA3MyAyMS4yNTA2IDI5LjU2NjYgMjEuMjUwNyAyOC41NDg2QzIxLjI1MDcgMjguMTg5NyAyMS41NDE0IDI3Ljg5ODQgMjEuOTAwMSAyNy44OTgySDI4LjQxNzdMMjguNDMyNCAyNy44NzM4QzI4Ljk1MiAyNi45NzM4IDMwLjI1MTYgMjYuOTczOCAzMC43NzEyIDI3Ljg3MzhDMzEuMjkwMyAyOC43NzM3IDMwLjY0MDMgMjkuODk4MiAyOS42MDEzIDI5Ljg5ODJDMjkuMTE5MiAyOS44OTgxIDI4LjY3MzUgMjkuNjQwOSAyOC40MzI0IDI5LjIyMzRMMjguNDE3NyAyOS4xOThIMjIuNDk4OEwyMi40OTE5IDI5LjI0QzIxLjk1OTcgMzIuMzg5NyAxOC4yMTc0IDMzLjc4MjIgMTUuNzU1NiAzMS43NDY4QzE0LjA0ODEgMzAuMzM0NyAxMy43NTA4IDI3LjgyOTYgMTUuMDgwOCAyNi4wNTc0Wk0yMC42NjA5IDE2Ljk5QzIyLjU1NTQgMTQuNDE3OSAyNi41MjQxIDE0Ljg2MTIgMjcuODA0NCAxNy43ODc4QzI3Ljg5NzMgMTguMDAwOCAyNy44NjkxIDE4LjI0NzQgMjcuNzMxMiAxOC40MzQzQzI3LjQzNCAxOC44MzY0IDI2LjgxMzQgMTguNzY2NCAyNi42MTMgMTguMzA4M1YxOC4zMDc0QzI1Ljk0NTQgMTYuNzc5MyAyNC4xMTM0IDE2LjE0ODUgMjIuNjQ2MiAxNi45NDEyQzIwLjcxNjIgMTcuOTg0IDIwLjYzODYgMjAuNzI1NiAyMi41MDY2IDIxLjg3NTdDMjIuODEyIDIyLjA2MzkgMjIuOTA3MyAyMi40NjM3IDIyLjcxOTUgMjIuNzY5M0wxOS41ODk2IDI3Ljg1NjJMMTkuNTc1IDI3Ljg4MDZMMTkuNTg4NiAyNy45MDZDMjAuMDc1IDI4LjgwNTUgMTkuNDIzNiAyOS44OTgzIDE4LjQwMTEgMjkuODk4MkMxNy45MTk2IDI5Ljg5NzggMTcuNDc0MyAyOS42NDEyIDE3LjIzMzIgMjkuMjI0NEMxNi43MTI5IDI4LjMyNDggMTcuMzYxOSAyNy4xOTg4IDE4LjQwMTEgMjcuMTk4SDE4LjQ2NzVMMTguNDgyMiAyNy4xNzQ2TDIxLjI3NjEgMjIuNjM1NUwyMS4yOTg2IDIyLjU5OTRMMjEuMjY2NCAyMi41NzFDMTkuNjQ2MSAyMS4xNTAxIDE5LjM4MjkgMTguNzI1MiAyMC42NjA5IDE2Ljk5WiIgZmlsbD0id2hpdGUiIHN0cm9rZT0iIzIxQTBCRCIgc3Ryb2tlLXdpZHRoPSIwLjEiLz4KPC9zdmc+Cg==",
+            "environment": "Shuffle",
+            "trigger_type": "WEBHOOK",
+            "name": "Webhook",
+            "tags": null,
+            "parameters": [
+                {
+                    "description": "",
+                    "id": "",
+                    "name": "url",
+                    "example": "",
+                    "value": "http://localhost:3001/api/v1/hooks/webhook_9668c33b-1a1b-4786-b7c7-d025ac56373a",
+                    "multiline": false,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "",
+                    "required": false,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": ""
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false
+                },
+                {
+                    "description": "",
+                    "id": "",
+                    "name": "tmp",
+                    "example": "",
+                    "value": "",
+                    "multiline": false,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "",
+                    "required": false,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": ""
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false
+                },
+                {
+                    "description": "",
+                    "id": "",
+                    "name": "auth_headers",
+                    "example": "",
+                    "value": "",
+                    "multiline": false,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "",
+                    "required": false,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": ""
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false
+                },
+                {
+                    "description": "",
+                    "id": "",
+                    "name": "custom_response_body",
+                    "example": "",
+                    "value": "",
+                    "multiline": false,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "",
+                    "required": false,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": ""
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false
+                },
+                {
+                    "description": "",
+                    "id": "",
+                    "name": "await_response",
+                    "example": "",
+                    "value": "v1",
+                    "multiline": false,
+                    "multiselect": false,
+                    "options": null,
+                    "action_field": "",
+                    "variant": "",
+                    "required": false,
+                    "configuration": false,
+                    "tags": null,
+                    "schema": {
+                        "type": ""
+                    },
+                    "skip_multicheck": false,
+                    "custom_value": false,
+                    "value_replace": null,
+                    "unique_toggled": false,
+                    "error": "",
+                    "hidden": false
+                }
+            ],
+            "position": {
+                "x": 146.29330298990428,
+                "y": 582.4264923443957
+            },
+            "priority": 0,
+            "source_workflow": "",
+            "execution_delay": 0,
+            "app_association": {
+                "name": "",
+                "app_version": "",
+                "id": "",
+                "link": "",
+                "is_valid": false,
+                "generated": false,
+                "downloaded": false,
+                "sharing": false,
+                "verified": false,
+                "invalid": false,
+                "activated": false,
+                "tested": false,
+                "hash": "",
+                "private_id": "",
+                "environment": "",
+                "small_image": "",
+                "large_image": "",
+                "contact_info": {
+                    "name": "",
+                    "url": ""
+                },
+                "folder_mount": {
+                    "folder_mount": false,
+                    "source_folder": "",
+                    "destination_folder": ""
+                },
+                "authentication": {
+                    "type": "",
+                    "required": false,
+                    "parameters": null,
+                    "redirect_uri": "",
+                    "token_uri": "",
+                    "refresh_uri": "",
+                    "scope": null,
+                    "client_id": "",
+                    "client_secret": "",
+                    "grant_type": ""
+                },
+                "actions": null,
+                "tags": null,
+                "categories": null,
+                "created": 0,
+                "edited": 0,
+                "last_runtime": 0,
+                "versions": null,
+                "loop_versions": null,
+                "owner": "",
+                "sharing_config": "",
+                "public": false,
+                "published_id": "",
+                "child_ids": null,
+                "reference_org": "",
+                "reference_url": "",
+                "action_file_path": "",
+                "template": false,
+                "documentation": "",
+                "description": "",
+                "documentation_download_url": "",
+                "primary_usecases": null,
+                "skipped_build": false,
+                "reference_info": {
+                    "onprem_backup": false,
+                    "is_partner": false,
+                    "partner_contacts": "",
+                    "documentation_url": "",
+                    "github_url": "",
+                    "triggers": null
+                },
+                "blogpost": "",
+                "video": "",
+                "company_url": "",
+                "contributors": null,
+                "revision_id": "",
+                "collection": ""
+            },
+            "parent_controlled": false,
+            "replacement_for_trigger": ""
+        }
+    ],
+    "comments": [],
+    "configuration": {
+        "exit_on_error": false,
+        "start_from_top": false,
+        "skip_notifications": false
+    },
+    "created": 0,
+    "edited": 0,
+    "last_runtime": 0,
+    "due_date": 0,
+    "errors": [
+        "Trigger Webhook needs to be started"
+    ],
+    "id": "b3594e60-b326-4ead-af20-cc3afc8d65c8",
+    "is_valid": true,
+    "name": "SOAR",
+    "description": "",
+    "start": "77bd92dd-4039-4954-953e-c9d4efa8733c",
+    "owner": "",
+    "sharing": "private",
+    "image": "data:image/png;base64,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",
+    "execution_org": {},
+    "org_id": "",
+    "workflow_variables": null,
+    "execution_environment": "",
+    "previously_saved": false,
+    "categories": {
+        "siem": {
+            "name": "",
+            "count": 0,
+            "id": "",
+            "description": "",
+            "large_image": ""
+        },
+        "communication": {
+            "name": "",
+            "count": 2,
+            "id": "",
+            "description": "",
+            "large_image": ""
+        },
+        "assets": {
+            "name": "",
+            "count": 0,
+            "id": "",
+            "description": "",
+            "large_image": ""
+        },
+        "cases": {
+            "name": "",
+            "count": 0,
+            "id": "",
+            "description": "",
+            "large_image": ""
+        },
+        "network": {
+            "name": "",
+            "count": 0,
+            "id": "",
+            "description": "",
+            "large_image": ""
+        },
+        "intel": {
+            "name": "",
+            "count": 0,
+            "id": "",
+            "description": "",
+            "large_image": ""
+        },
+        "edr": {
+            "name": "",
+            "count": 0,
+            "id": "",
+            "description": "",
+            "large_image": ""
+        },
+        "iam": {
+            "name": "",
+            "count": 0,
+            "id": "",
+            "description": "",
+            "large_image": ""
+        },
+        "ai": {
+            "name": "",
+            "count": 0,
+            "id": "",
+            "description": "",
+            "large_image": ""
+        },
+        "email": {
+            "name": "",
+            "count": 0,
+            "id": "",
+            "description": "",
+            "large_image": ""
+        },
+        "other": {
+            "name": "",
+            "count": 2,
+            "id": "",
+            "description": "",
+            "large_image": ""
+        }
+    },
+    "example_argument": "",
+    "public": false,
+    "default_return_value": "",
+    "contact_info": {
+        "name": "",
+        "url": ""
+    },
+    "published_id": "",
+    "revision_id": "",
+    "usecase_ids": [],
+    "input_questions": null,
+    "form_control": {
+        "input_markdown": "",
+        "output_yields": null,
+        "cleanup_actions": null,
+        "form_width": 0
+    },
+    "blogpost": "",
+    "video": "",
+    "status": "test",
+    "workflow_type": "",
+    "generated": false,
+    "hidden": false,
+    "background_processing": false,
+    "updated_by": "",
+    "validated": false,
+    "validation": {},
+    "parentorg_workflow": "",
+    "childorg_workflow_ids": null,
+    "suborg_distribution": [],
+    "backup_config": {
+        "onprem_backup": false,
+        "upload_repo": "",
+        "upload_branch": "",
+        "upload_username": "",
+        "upload_token": "",
+        "tokens_encrypted": false
+    },
+    "auth_groups": null,
+    "org": [],
+    "first_save": false
+}
