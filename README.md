@@ -133,7 +133,7 @@ System 2 (Windows 11)
 ## Architecture Diagram
 
 
-[project-architecture.png](architecture/project-architecture.png)
+![project-architecture.png](architecture/project-architecture.png)
 
 
 ---
@@ -142,43 +142,43 @@ System 2 (Windows 11)
 
 ### Wazuh Dashboard
 
-[wazuh-dashboard](screenshots/01-wazuh-dashboard.png)
+![wazuh-dashboard](screenshots/01-wazuh-dashboard.png)
 
 
 ### Agent Registration
-[02-agent-connected.png](screenshots/02-agent-connected.png)
+![02-agent-connected.png](screenshots/02-agent-connected.png)
 
 ### Alert Generation
 
-[03-alert-generated.png](screenshots/03-alert-generated.png)
-[04-alert-details.png](screenshots/04-alert-details.png)
+![03-alert-generated.png](screenshots/03-alert-generated.png)
+![04-alert-details.png](screenshots/04-alert-details.png)
 
 
 ### Shuffle Workflow
 
-[05-shuffle-workflow.png](screenshots/05-shuffle-workflow.png)
-[12-shuffle-workflow-design.png](screenshots/12-shuffle-workflow-design.png)
+![05-shuffle-workflow.png](screenshots/05-shuffle-workflow.png)
+![12-shuffle-workflow-design.png](screenshots/11-shuffle-workflow-design.png)
 
 
 ### VirusTotal Enrichment
 
-[06-virustotal-enrichment.png](screenshots/06-virustotal-enrichment.png)
+![06-virustotal-enrichment.png](screenshots/06-virustotal-enrichment.png)
 
 
 ### Telegram Notifications
 
-[07-telegram-notification.png](screenshots/07-telegram-notification.png)
+![07-telegram-notification.png](screenshots/07-telegram-notification.png)
 
 
 ### File Integrity Monitoring
 
-[08-fim-test-file-modification.png](screenshots/08-fim-test-file-modification.png)
-[09-fim-alert-triggered.png](screenshots/09-fim-alert-triggered.png)
+![08-fim-test-file-modification.png](screenshots/08-fim-test-file-modification.png)
+![09-fim-alert-triggered.png](screenshots/09-fim-alert-triggered.png)
 
 
 ### End-to-End Workflow Validation
 
-[10-end-to-end-workflow.png](screenshots/10-end-to-end-workflow.png)
+![10-end-to-end-workflow.png](screenshots/10-end-to-end-workflow.png)
 
 
 ---
